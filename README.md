@@ -1,8 +1,5 @@
 Project: Email Reply Generator (Spring Boot + React)
 
-Role: Personal Project
-Tech: Java 21, Spring Boot 3 (REST), React + Vite, MUI, Axios, OpenAI/Gemini API, dotenv, GitHub Actions, Render (API), Vercel (web), JUnit 5
-
 Generates first-draft replies in ~2–3 minutes by sending the pasted email + selected tone (formal/friendly/brief) to a Spring Boot endpoint that composes a prompt and calls an LLM (OpenAI/Gemini) via HTTP.
 
 Built a React/MUI UI with fields for tone, key points, and “paste original email,” plus subject/body outputs and one-click copy; saved recent drafts in localStorage for quick reuse.
